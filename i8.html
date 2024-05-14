@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <style>
+        /* Basic Resets */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #282828;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Intro Section */
+.intro {
+    background: #555;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section{
+padding:50px 20px;
+}
+/* Portfolio Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+/* Footer */
+footer {
+    background-color: #404040;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container" style="text-align:center">
+            <h1>Creative Agency</h1>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <h2>Innovate, Design, Create</h2>
+            <p>Your vision, our design expertise.</p>
+            <a href="#contact" class="btn">Work With Us</a>
+        </div>
+    </section>
+ <div style="background-color:#A9A9A9; text-align:center;">
+    <section>
+        <h2>Contact Us</h2>
+        <p>For any queries,reach out to us at:</p>
+        <p>Email: murthasagar@gmail.com</p>
+        <p>Phone: +919515641218 </p>
+    </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>© 2024 Creative Agency. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
